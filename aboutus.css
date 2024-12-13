@@ -1,0 +1,122 @@
+.header {
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+}
+
+.title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color:  rgb(63, 63, 94);
+    font-weight: bold; 
+    font-family: Fantasy, Copperplate; 
+    letter-spacing: 0.5em; 
+    font-size: 50px;
+    margin-top: 85px;
+    padding-bottom: 15px;
+}
+
+.logo {
+    background-image: url('logo.jpg');
+    background-repeat: no-repeat;
+    height:500px;
+}
+
+h5 {
+    font-size:15px;
+    text-align: justify;
+    padding-left: 520px;
+}
+
+nav {
+    background-color: #a5bece;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.container img {
+    float: left;
+    margin-right: 50px;    
+    width: 700px;          
+    height: 500px;         
+}
+
+.container p {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.location {
+    overflow: hidden;
+    display: block;
+    padding-top: 150px;
+}
+
+.location p { 
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.location h3 { 
+    font-family: Fantasy, Copperplate;
+    letter-spacing: 0.3em;
+    color: rgb(63, 63, 94);
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+.location img {
+    float: left;
+    margin-right: 60px;
+    padding-top: 10px;
+    width: 500px;          
+    height: 480px;
+}
+
+.shipping h3 {
+    font-family: Fantasy, Copperplate;
+    letter-spacing: 0.2em;
+    color: rgb(63, 63, 94);
+    font-size: 50px;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.shipping p , .return p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    display: block;
+    text-align: justify;
+    margin : 10px;
+}
+    
+.shipping-details p , .delivery p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.return h6 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    text-align: center;
+}
+
+.return h3 , .delivery h3 {
+    font-family: Fantasy, Copperplate;
+    letter-spacing: 0.2em;
+    color: rgb(63, 63, 94);
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+

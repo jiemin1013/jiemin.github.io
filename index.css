@@ -1,0 +1,159 @@
+body {
+    background-color: #dfdfdf;
+    color:black;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color:white;
+    background-repeat: no-repeat;
+}
+
+nav a{
+    color: rgb(9, 9, 9);
+}
+
+nav{
+    background-color: #a5bece;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+h4{
+    font-family:Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+
+.main p {
+    font-family:'LucidaHandwriting', 'Brush Script MT',cursive;
+    font-size: 100px;
+    text-align:left;
+    color:black;
+    text-shadow: 2px 4px 2px #a5bece;
+    text-align: center;
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.poster-container {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory; 
+}
+.poster-container::-webkit-scrollbar {
+    display: none; 
+}
+.poster {
+    flex: 0 0 auto; 
+    width: 80vw;
+    height: 60vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    scroll-snap-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.poster-1 { 
+    background-image: url('home_poster/welcome.png');
+ }
+.poster-2 {
+    background-image: url('home_poster/new\ collection.png'); 
+}
+.poster-3 { 
+    background-image: url('home_poster/Christmas\ offer.png'); 
+}
+.poster-4 { 
+    background-image: url('home_poster/modern\ room.png'); 
+}
+
+.new-arrival {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.movable-image {
+    width: 1500px;
+    transition: transform 0.1s ease;
+}
+
+.movable-image:hover{
+    transform: translateY(-7px);
+}
+
+.new-arrival p{
+    font-family:'LucidaHandwriting', 'Brush Script MT',cursive;
+    font-size: 100px;
+    text-align:center;
+    color:black;
+    padding-top: 50px;
+    margin-bottom: 5px;
+}
+
+.best-sales p {
+    text-align: center;
+    font-size: 90px;
+    font-family:'LucidaHandwriting', 'Brush Script MT',cursive;
+    color: black;
+}
+
+.best-sales {
+    padding-top: 150px;
+    display: grid;
+    gap: 18px;
+    width: 100%;
+    max-width: 1500px;
+    margin-bottom: 150px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    
+} 
+.best-sales img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+    
+} 
+
+.clothes-container {
+    font-size:0;
+}
+
+.clothes-container img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.click-container {
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: #a5bece;
+    text-align: center;
+    height:7em；
+}
+
+
+
+            
